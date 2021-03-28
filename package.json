@@ -1,7 +1,6 @@
 {
-  "name": "netflix-piral",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@paquitosoft/netflix-piral",
+  "version": "1.1.0",
   "keywords": [
     "piral"
   ],
@@ -36,5 +35,16 @@
     "piral-cli": "0.13.0",
     "piral-cli-webpack": "^0.13.0",
     "typescript": "latest"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaquitoSoft/netflix-piral.git"
+  },
+  "author": "Paquitosoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaquitoSoft/netflix-piral/issues"
+  },
+  "homepage": "https://github.com/PaquitoSoft/netflix-piral#readme",
+  "description": ""
 }

@@ -8,12 +8,15 @@ import Footer from './Footer';
 
 const App: React.FC<LayoutProps> = ({ children }) => (
 	<React.Fragment>
-		<div className="app__main">
+		<div className="main-wrapper">
 			<Router>
-				<header className="app__header">
+				<header className="Header">
 					<Logo />
 					<Menu type="general" />
-					<ExtensionSlot name="header-items" />
+					<ExtensionSlot name="search"></ExtensionSlot>
+					<div className="header-right">
+						<ExtensionSlot name="header-right" />
+					</div>
 				</header>
 
 				<Route exact path="/">
