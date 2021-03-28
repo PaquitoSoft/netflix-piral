@@ -1,6 +1,6 @@
 {
   "name": "@paquitosoft/netflix-piral",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "piral"
   ],
@@ -10,7 +10,8 @@
   "scripts": {
     "start": "piral debug",
     "build": "piral build",
-    "build:emulator": "piral build --type emulator"
+    "build:emulator": "piral build --type emulator",
+	"publish": "npm publish --access public"
   },
   "app": "./src/index.html",
   "pilets": {
